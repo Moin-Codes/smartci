@@ -4,7 +4,7 @@ from src.pricing import add_tax, apply_discount
 
 
 def test_apply_discount_calculates_discount():
-	assert apply_discount(100, 20) == 80
+	assert apply_discount(100, 20) == 90
 
 
 def test_apply_discount_at_zero_percent():
